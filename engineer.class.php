@@ -15,6 +15,11 @@ class Progrmmer
 	{
 		return $taskName;
 	}
+	
+	public function writeCode($code)
+	{
+		
+	};
 
 	public function isFinishTask($taskName)
 	{

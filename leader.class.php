@@ -4,10 +4,14 @@ error_reporting(0);
 
 class TemaAdmin
 {
-	private $__name = 'Jimmy';
+	private $__name = '';
 	private $__age = '';
-	private $__sex = 'man';
-
+	private $__sex = '';
+	
+	private function __getTask($name, $content) {
+        return ($name, $type, $content);
+    }
+	
 	private function __decompositionTask($taskName)
 	{
 		return $taskType;
